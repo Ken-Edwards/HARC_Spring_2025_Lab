@@ -19,7 +19,7 @@ the option to continue. */
 #define TRUE 1
 // Function prototyping
 
-#include "Comet.h"
+
 
 
 /* 
