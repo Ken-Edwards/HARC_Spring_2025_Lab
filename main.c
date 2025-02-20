@@ -21,6 +21,8 @@ the option to continue. */
 
 // insert .h files here
 
+#include "Comet.h"
+
 
 /* 
 void printGreeting();
