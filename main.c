@@ -21,7 +21,6 @@ the option to continue. */
 
 
 
-
 /* 
 void printGreeting();
 int getBet();
