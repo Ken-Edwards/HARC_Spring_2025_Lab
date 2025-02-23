@@ -19,7 +19,9 @@ the option to continue. */
 #define TRUE 1
 // Function prototyping
 
+// insert .h files here
 
+#include "Comet.h"
 
 /* 
 void printGreeting();
