@@ -18,7 +18,7 @@ the option to continue. */
 #define FALSE 0
 #define TRUE 1
 
-/* Verifying merge process   again*/
+/* Verifying merge process again*/
 
 // Function prototyping
 
