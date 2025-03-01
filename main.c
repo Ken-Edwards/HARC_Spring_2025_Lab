@@ -9,12 +9,15 @@ value of the hand. The user's new bankroll is displayed as they are
 given
 the option to continue. */
 // Header files
+
 #include <stdio.h>
 #include <time.h>
 #include <ctype.h>
 #include <stdlib.h>
 // Two constants defined for determining whether hands are flushes
 // or straights
+
+
 #define FALSE 0
 #define TRUE 1
 
@@ -22,21 +25,24 @@ the option to continue. */
 
 // Function prototyping
 
+#include "Comet.h"
+#include "Allen.h"
+#include "Brody.h"
+#include "Jack.h"
 
 
-
-/* 
+/*
 void printGreeting();
 int getBet();
 char getSuit(int suit);
 char getRank(int rank);
 void getFirstHand(int cardRank[], int cardSuit[]);
 void getFinalHand(int cardRank[], int cardSuit[], int finalRank[], int finalSuit[], int ranksinHand[], int suitsinHand[]);
-int analyzeHand(int ranksinHand[], int suitsinHand[]);  
+int analyzeHand(int ranksinHand[], int suitsinHand[]);
 */
 
 
-main() {
+int main() {
 
   int bet;
   int bank = 100;
@@ -52,8 +58,8 @@ main() {
   char suit, rank, stillPlay;
 
 // This function is called outside the do...while loop because
-// the greeting only needs to be displayed once, while 
-// everything else in main will run multiple times, depending on 
+// the greeting only needs to be displayed once, while
+// everything else in main will run multiple times, depending on
 // how many times the user wants to play.
 
 printGreeting();
@@ -99,5 +105,5 @@ printGreeting();
     printf("\nDo you want to play again? ");
     scanf(" %c", &stillPlay);
     } while (toupper(stillPlay) == 'Y');
-  return;
+  return 0;
   }
