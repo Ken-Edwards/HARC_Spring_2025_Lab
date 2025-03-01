@@ -22,7 +22,11 @@ the option to continue. */
 
 // Function prototyping
 
-
+#include "Comet.h"
+#include "Allen.h"
+#include "Brody.h"
+#include "Jack.h"
+  
 
 /* 
 void printGreeting();
