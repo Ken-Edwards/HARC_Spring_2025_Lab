@@ -1,8 +1,8 @@
+#ifndef ALLEN_H
+#define ALLEN_H
 
-#ifndef BET_SUIT_H
-#define BET_SUIT_H
 
-int getBet(void);
+int getBet();
 char getSuit(int suit);
 
-#endif // BET_SUIT_H
+#endif // ALLEN_H
