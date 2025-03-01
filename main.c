@@ -29,9 +29,9 @@ the option to continue. */
 #include "Allen.h"
 #include "Brody.h"
 #include "Jack.h"
+ 
 
-
-/*
+/* 
 void printGreeting();
 int getBet();
 char getSuit(int suit);

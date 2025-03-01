@@ -1,4 +1,3 @@
-
 #ifndef ALLEN_H
 #define ALLEN_H
 

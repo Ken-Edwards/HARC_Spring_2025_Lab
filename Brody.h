@@ -1,4 +1,3 @@
-
 #ifndef BRODY_H
 #define BRODY_H
 
@@ -13,4 +12,3 @@ void getFirstHand(int cardRank[], int cardSuit[]);
 
 
 #endif // BRODY_H
-
